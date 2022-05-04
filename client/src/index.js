@@ -10,7 +10,7 @@ import axios from "axios"
 const container = document.getElementById("root")
 
 
-axios.defaults.baseURL = process.env.REACT_APP_API || "http://localhost:3001"
+axios.defaults.baseURL = process.env.REACT_APP_API || https://shoespfhenry.herokuapp.com
 
 const root = createRoot(container)
 root.render(
