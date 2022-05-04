@@ -9,8 +9,8 @@ import axios from "axios"
 // API URL https://rapidapi.com/tg4-solutions-tg4-solutions-default/api/the-sneaker-database/
 const container = document.getElementById("root")
 
-
-axios.defaults.baseURL = process.env.REACT_APP_API || "https://shoespfhenry.herokuapp.com"
+// process.env.REACT_APP_API ||
+axios.defaults.baseURL = "https://shoespfhenry.herokuapp.com"
 
 const root = createRoot(container)
 root.render(
